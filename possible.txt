@@ -1,0 +1,8 @@
+def split1(file):
+    file = open(file, 'r')
+    var  = file.read().split('|')
+    print(var)
+    for i in var:
+        var2 = i.split('^')
+        print(var2)
+       
