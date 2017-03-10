@@ -13,6 +13,9 @@ Constructor:
 Class Members:
     Instance Members:
         json_data_bucket content[]
-        boolean: add_item(json_data_bucket)
+        boolean: add_item(json_data_bucket item)
+        boolean: remove_item(string: key)
+
+
 
 """
