@@ -30,9 +30,9 @@ from json_exception import json_exception
 
 class json_data_bucket:
     """
-    Name: json_data_bucket.
+    Name: json_data_bucket.  Almost a tuple.  But more friendly.
 
-    v0.1.1-alpha.2
+    v0.1.1-alpha.3
 
     Description:
         Data wrapper -- like a tuple. But with more strings.
@@ -74,4 +74,12 @@ class json_data_bucket:
             # todo: something something handle the failure
             self.ret.raise_me(True)
 
-    def
+    def set_key(self, p_key=None):
+        """Check if p_key is not None, then set it."""
+        # todo: look into p_key.__get_attr__(**kwargs) etc
+        if not (p_key is None):
+            self.key = str(p_key)
+            return True
+        return False
+    def set_value(self, p_value=None):
+
