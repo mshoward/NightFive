@@ -91,3 +91,5 @@ ENV/
 \.vscode/
 
 Night5MSH/tools/
+
+Night5MSH/\.pylint\.d/

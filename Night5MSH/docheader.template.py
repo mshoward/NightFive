@@ -2,7 +2,7 @@
 Name:
     json_data_bucket
 
-v0.1.1-alpha.1
+v0.1.1-alpha.2
 
 Description:
     Data wrapper -- like a tuple. But with more strings.
